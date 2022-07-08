@@ -1,0 +1,13 @@
+.page {
+  flex: 1 1 auto;
+
+  &__main-block {
+    position: relative;
+  }
+
+  &__services {
+    position: relative;
+    margin-top: -110px;
+    z-index: 2;
+  }
+}
