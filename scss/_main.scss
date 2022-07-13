@@ -88,6 +88,9 @@
 
 @media (max-width: 479px) {
   .main-block {
+    &__image {
+      opacity: 0.4;
+    }
     &__body {
       padding: 100px 0 150px 0;
     }
@@ -98,7 +101,6 @@
     }
     &__button {
       flex: 1 1 100%;
-      
     }
   }
 }
