@@ -47,14 +47,27 @@
     line-height: calc(28 / 14 * 100%);
     letter-spacing: 0.2px;
     margin: 10px 0;
+    transition: 1s;
 
     &_border {
       color: #0d5c63;
       border: 1px solid #0d5c63;
+      &:hover {
+        color: #ffffff;
+        background-color: #0d5c63;
+        transition: 1s;
+      }
     }
     &_orange {
       background-color: #ff7b47;
       color: #ffffff;
+      border: 1px solid #ff7b47;
+
+      &:hover {
+        color: #ff7b47;
+        background-color: transparent;
+        transition: 1s;
+      }
     }
   }
 
