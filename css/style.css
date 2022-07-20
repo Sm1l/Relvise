@@ -730,3 +730,51 @@ body {
     padding: 0 0 0 0;
   }
 }
+
+.clients {
+  padding: 60px;
+}
+
+.clients__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients__item {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .clients__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 33.3%;
+            flex: 1 0 33.3%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 690px) {
+  .clients__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+@media (max-width: 440px) {
+  .clients__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    padding: 15px 0 15px 0;
+  }
+}
