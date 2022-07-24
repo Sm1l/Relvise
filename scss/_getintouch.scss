@@ -1,0 +1,140 @@
+.getintouch {
+  padding: 80px 0 80px;
+  background: #f3f3f3;
+
+  &__container {
+  }
+
+  &__header {
+  }
+
+  &__body {
+    padding: 80px 30px;
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    flex: 0 1 33.333%;
+  }
+}
+
+.item-getintouch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 40px;
+  gap: 15px;
+  background: #ffffff;
+
+  &__logo {
+  }
+
+  &__emails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__email {
+    font-weight: 600;
+    line-height: 171%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252b42;
+    &:hover {
+      text-decoration: underline;
+      color: #ff7b47;
+    }
+  }
+
+  &__label {
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 20px;
+    min-height: 44px;
+    border: 1px solid #ff7b47;
+    border-radius: 5px;
+    letter-spacing: 0.2px;
+    color: #ff7b47;
+    font-weight: 600;
+    transition: 1s;
+    &:hover {
+      color: #fff;
+      background-color: #ff7b47;
+      transition: 1s;
+    }
+  }
+  &_active {
+    padding: 80px 40px;
+    background: #252b42;
+    color: #fff;
+    & .item-getintouch__label {
+      color: #fff;
+    }
+    & .item-getintouch__email {
+      color: #fff;
+      &:hover {
+        color: #ff7b47;
+      }
+    }
+    & .item-getintouch__button {
+      color: #fff;
+      border: 1px solid #fff;
+      &:hover {
+        border: 1px solid #ff7b47;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .getintouch {
+    &__container {
+    }
+
+    &__header {
+    }
+
+    &__body {
+      padding: 80px 0;
+    }
+
+    &__items {
+      display: block;
+    }
+
+    &__item {
+      padding: 30px 40px;
+    }
+
+    &__logo {
+    }
+
+    &__emails {
+    }
+
+    &__email {
+    }
+
+    &__label {
+    }
+
+    &__button {
+    }
+  }
+}
