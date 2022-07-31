@@ -26,19 +26,27 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
 
   &__item {
   }
 
   &__item:not(:last-child) {
-    margin: 0px 21px 0px 0px;
   }
 
   &__link {
+    display: block;
     line-height: calc(24 / 14 * 100%);
     color: inherit;
     font-weight: 600;
+    transition: transform 500ms;
+    &:hover {
+      color: black;
+      text-decoration: underline;
+      transform: scale(150%);
+      transition: transform 500ms;
+    }
   }
 }
 
