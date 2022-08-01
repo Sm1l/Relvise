@@ -1285,7 +1285,7 @@ body {
 }
 
 .contacts-footer__item_phone {
-  background: url("images/icons/IconFooter1.svg") 0 0 no-repeat;
+  background: url("/images/icons/IconFooter1.svg") 0 0 no-repeat;
 }
 
 .contacts-footer__item_map {
