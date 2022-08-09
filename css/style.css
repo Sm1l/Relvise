@@ -1167,8 +1167,8 @@ body {
           flex-direction: column;
   padding: 50px 0;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 16.667%;
-          flex: 0 1 16.667%;
+      -ms-flex: 0 1 16.6667%;
+          flex: 0 1 16.6667%;
 }
 
 .footer__column:not(:last-child) {
@@ -1288,14 +1288,15 @@ body {
 }
 
 .contacts-footer__item_phone {
-  background: url("https://github.com/Sm1l/Relvise/tree/main/images/icons/IconFooter1.svg") 0 0 no-repeat;
+  background: url("/images/icons/IconFooter1.svg") 0 0 no-repeat;
 }
+
 .contacts-footer__item_map {
-  background: url("images/icons/IconFooter2.svg") 0 0 no-repeat;
+  background: url("/images/icons/IconFooter2.svg") 0 0 no-repeat;
 }
 
 .contacts-footer__item_email {
-  background: url("images/icons/IconFooter3.svg") 0 0 no-repeat;
+  background: url("/images/icons/IconFooter3.svg") 0 0 no-repeat;
 }
 
 @media (max-width: 992px) {
