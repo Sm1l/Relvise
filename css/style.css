@@ -167,8 +167,8 @@ body {
 .menu__link:hover {
   color: black;
   text-decoration: underline;
-  -webkit-transform: scale(150%);
-          transform: scale(150%);
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
   -webkit-transition: -webkit-transform 500ms;
   transition: -webkit-transform 500ms;
   transition: transform 500ms;
@@ -1064,8 +1064,11 @@ body {
 }
 
 @media (max-width: 992px) {
+  .getintouch {
+    padding: 30px 0 20px;
+  }
   .getintouch__body {
-    padding: 80px 0;
+    padding: 20px 0;
   }
   .getintouch__items {
     display: block;
@@ -1329,5 +1332,10 @@ body {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%;
+  }
+  .footer__column_contacts {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
   }
 }
